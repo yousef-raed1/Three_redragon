@@ -1,0 +1,21 @@
+:root{
+    --bg-opacity : rgba(0, 0, 0, 0.558) ;
+    --redlogoragon-back : #141414 ;
+}
+body{
+  background-color: #1f1f1f;
+}
+.khat{
+  font-family: 'Chela One', cursive;
+  letter-spacing: 4px;
+  /* background-color: #171616; */
+}
+
+
+.owner p {
+  transition: all 0.7s ease;
+}
+
+.sectiion-4{
+  background-color:black ;
+}

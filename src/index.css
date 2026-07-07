@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body{
+    background-color: #181818 ;
+}
+:root{
+    --navbar : #1f1f1f ;
+    --cart-back : #2b2b2b ;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}   
+body{
+  font-family: "Merienda", cursive;
+}

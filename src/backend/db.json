@@ -1,0 +1,616 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gaming Keyboard",
+      "price": 1200,
+      "desc": "Mechanical RGB Keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "HEADER",
+      "stock": 13
+    },
+    {
+      "id": 2,
+      "name": "Gaming combo",
+      "price": 1200,
+      "desc": "Mechanical RGB combo",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "name": "Gaming mouse",
+      "price": 1200,
+      "desc": "Mechanical RGB mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 4,
+      "name": "Gaming Keyboard Pro",
+      "price": 1350,
+      "desc": "RGB Mechanical Pro Keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "name": "Gaming Headset",
+      "price": 900,
+      "desc": "Surround RGB Headset",
+      "img": "/images/combo.png",
+      "category": "HEADER",
+      "stock": 6
+    },
+    {
+      "id": 6,
+      "name": "Gaming mouse X",
+      "price": 1100,
+      "desc": "High precision RGB mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "name": "Gaming combo elite",
+      "price": 1600,
+      "desc": "Full RGB combo set",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 8,
+      "name": "Keyboard Ultra",
+      "price": 1400,
+      "desc": "Ultra mechanical keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "HEADER",
+      "stock": 7
+    },
+    {
+      "id": 9,
+      "name": "Gaming mouse lite",
+      "price": 800,
+      "desc": "Lightweight RGB mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 10,
+      "name": "Gaming combo mini",
+      "price": 1000,
+      "desc": "Mini combo pack",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 11,
+      "name": "Keyboard Strike",
+      "price": 1250,
+      "desc": "Fast response keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 12,
+      "name": "Gaming mic",
+      "price": 700,
+      "desc": "Clear voice mic",
+      "img": "/images/combo.png",
+      "category": "HEADER",
+      "stock": 12
+    },
+    {
+      "id": 13,
+      "name": "Gaming mouse storm",
+      "price": 1150,
+      "desc": "Storm edition mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 14,
+      "name": "Gaming combo RGB+",
+      "price": 1700,
+      "desc": "Premium combo RGB",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 15,
+      "name": "Keyboard Titan",
+      "price": 1500,
+      "desc": "Titan mechanical keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "HEADER",
+      "stock": 49
+    },
+    {
+      "id": 16,
+      "name": "Mouse speed pro",
+      "price": 1300,
+      "desc": "Speed optimized mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 17,
+      "name": "Gaming combo basic",
+      "price": 900,
+      "desc": "Basic starter combo",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 18,
+      "name": "Keyboard Neo",
+      "price": 1450,
+      "desc": "Neo RGB keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 19,
+      "name": "Gaming stand",
+      "price": 600,
+      "desc": "Headset stand RGB",
+      "img": "/images/combo.png",
+      "category": "HEADER",
+      "stock": 10
+    },
+    {
+      "id": 20,
+      "name": "Mouse stealth",
+      "price": 1200,
+      "desc": "Silent click mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 21,
+      "name": "Gaming Keyboard X2",
+      "price": 1550,
+      "desc": "Advanced RGB keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "HEADER",
+      "stock": 44
+    },
+    {
+      "id": 22,
+      "name": "Combo pro max",
+      "price": 1900,
+      "desc": "Full pro gaming set",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 23,
+      "name": "Mouse viper",
+      "price": 1400,
+      "desc": "Viper fast mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 24,
+      "name": "Keyboard RGB storm",
+      "price": 1300,
+      "desc": "Storm RGB keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 25,
+      "name": "Gaming light bar",
+      "price": 750,
+      "desc": "RGB desk light",
+      "img": "/images/combo.png",
+      "category": "HEADER",
+      "stock": 15
+    },
+    {
+      "id": 26,
+      "name": "Mouse ultra pro",
+      "price": 1350,
+      "desc": "Ultra precision mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 27,
+      "name": "Combo RGB beast",
+      "price": 2000,
+      "desc": "Beast combo set",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 28,
+      "name": "Keyboard alpha",
+      "price": 1250,
+      "desc": "Alpha mechanical keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "HEADER",
+      "stock": 35
+    },
+    {
+      "id": 29,
+      "name": "Mouse phantom",
+      "price": 1100,
+      "desc": "Phantom RGB mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 30,
+      "name": "Gaming combo xpress",
+      "price": 1500,
+      "desc": "Fast combo pack",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 31,
+      "name": "Keyboard dark mode",
+      "price": 1400,
+      "desc": "Dark RGB keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 32,
+      "name": "Gaming camera",
+      "price": 1000,
+      "desc": "Streaming camera",
+      "img": "/images/combo.png",
+      "category": "HEADER",
+      "stock": 15
+    },
+    {
+      "id": 33,
+      "name": "Mouse fury",
+      "price": 1250,
+      "desc": "Fury gaming mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 34,
+      "name": "Combo elite v2",
+      "price": 1800,
+      "desc": "Elite upgraded combo",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 35,
+      "name": "Keyboard apex",
+      "price": 1600,
+      "desc": "Apex mechanical keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 36,
+      "name": "Mouse blade",
+      "price": 1200,
+      "desc": "Blade sharp mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 37,
+      "name": "Gaming combo neo+",
+      "price": 1700,
+      "desc": "Neo combo pack",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 38,
+      "name": "Keyboard shadow",
+      "price": 1350,
+      "desc": "Shadow RGB keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 39,
+      "name": "Mouse x fire",
+      "price": 1150,
+      "desc": "Fire edition mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 40,
+      "name": "Gaming combo max pro",
+      "price": 2100,
+      "desc": "Top tier combo",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 41,
+      "name": "Keyboard omega",
+      "price": 1500,
+      "desc": "Omega mechanical keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 42,
+      "name": "Mouse titan x",
+      "price": 1450,
+      "desc": "Titan gaming mouse",
+      "img": "/images/mousechat.png",
+      "category": "HEADER",
+      "stock": 7
+    },
+    {
+      "id": 43,
+      "name": "Combo starter",
+      "price": 950,
+      "desc": "Starter gaming combo",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 44,
+      "name": "Keyboard pro elite",
+      "price": 1550,
+      "desc": "Elite pro keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 45,
+      "name": "Mouse ghost",
+      "price": 1200,
+      "desc": "Ghost silent mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 46,
+      "name": "Gaming headset pro",
+      "price": 1100,
+      "desc": "Pro surround headset",
+      "img": "/images/combo.png",
+      "category": "HEADER",
+      "stock": 4
+    },
+    {
+      "id": 47,
+      "name": "Combo ultimate",
+      "price": 2200,
+      "desc": "Ultimate gaming combo",
+      "img": "/images/combo.png",
+      "category": "combo",
+      "stock": 15
+    },
+    {
+      "id": 48,
+      "name": "Keyboard fury x",
+      "price": 1400,
+      "desc": "Fury RGB keyboard",
+      "img": "/images/keypordchat-1.png",
+      "category": "Keyboard",
+      "stock": 15
+    },
+    {
+      "id": 49,
+      "name": "Mouse neon",
+      "price": 1250,
+      "desc": "Neon glowing mouse",
+      "img": "/images/mousechat.png",
+      "category": "mouse",
+      "stock": 15
+    },
+    {
+      "id": 50,
+      "name": "Gaming desk pad",
+      "price": 500,
+      "desc": "RGB large desk pad",
+      "img": "/images/combo.png",
+      "category": "Keyboard",
+      "stock": 15
+    }
+  ],
+  "wishlist": [
+    {
+      "userId": "jP54C3gjDcN3ziN3uRlpz4Ono842",
+      "productsId": 5,
+      "payload": {
+        "product": {
+          "id": 5,
+          "name": "Gaming Headset",
+          "price": 900,
+          "desc": "Surround RGB Headset",
+          "img": "/images/combo.png",
+          "category": "header",
+          "stock": 15
+        }
+      },
+      "id": 1
+    },
+    {
+      "userId": "jP54C3gjDcN3ziN3uRlpz4Ono842",
+      "productsId": 19,
+      "payload": {
+        "product": {
+          "id": 19,
+          "name": "Gaming stand",
+          "price": 600,
+          "desc": "Headset stand RGB",
+          "img": "/images/combo.png",
+          "category": "header",
+          "stock": 15
+        }
+      },
+      "id": 3
+    },
+    {
+      "userId": "yGxsX0RbpVX8rT0Jbuh8HoCfojL2",
+      "productsId": 15,
+      "payload": {
+        "product": {
+          "id": 15,
+          "name": "Keyboard Titan",
+          "price": 1500,
+          "desc": "Titan mechanical keyboard",
+          "img": "/images/keypordchat-1.png",
+          "category": "header",
+          "stock": 49
+        }
+      },
+      "id": 8
+    },
+    {
+      "userId": "yGxsX0RbpVX8rT0Jbuh8HoCfojL2",
+      "productsId": 12,
+      "payload": {
+        "product": {
+          "id": 12,
+          "name": "Gaming mic",
+          "price": 700,
+          "desc": "Clear voice mic",
+          "img": "/images/combo.png",
+          "category": "header",
+          "stock": 12
+        }
+      },
+      "id": 9
+    },
+    {
+      "userId": "yGxsX0RbpVX8rT0Jbuh8HoCfojL2",
+      "productsId": 8,
+      "payload": {
+        "product": {
+          "id": 8,
+          "name": "Keyboard Ultra",
+          "price": 1400,
+          "desc": "Ultra mechanical keyboard",
+          "img": "/images/keypordchat-1.png",
+          "category": "header",
+          "stock": 7
+        }
+      },
+      "id": 10
+    },
+    {
+      "userId": "yGxsX0RbpVX8rT0Jbuh8HoCfojL2",
+      "productsId": 5,
+      "payload": {
+        "product": {
+          "id": 5,
+          "name": "Gaming Headset",
+          "price": 900,
+          "desc": "Surround RGB Headset",
+          "img": "/images/combo.png",
+          "category": "header",
+          "stock": 6
+        }
+      },
+      "id": 11
+    },
+    {
+      "userId": "yGxsX0RbpVX8rT0Jbuh8HoCfojL2",
+      "productsId": 1,
+      "payload": {
+        "product": {
+          "id": 1,
+          "name": "Gaming Keyboard",
+          "price": 1200,
+          "desc": "Mechanical RGB Keyboard",
+          "img": "/images/keypordchat-1.png",
+          "category": "header",
+          "stock": 13
+        }
+      },
+      "id": 12
+    },
+    {
+      "userId": "Q0jUPObgmAOY0saLAflOz8ew1oP2",
+      "productsId": 15,
+      "payload": {
+        "product": {
+          "id": 15,
+          "name": "Keyboard Titan",
+          "price": 1500,
+          "desc": "Titan mechanical keyboard",
+          "img": "/images/keypordchat-1.png",
+          "category": "header",
+          "stock": 49
+        }
+      },
+      "id": 13
+    },
+    {
+      "userId": "U4RSbmT1s4eTcySgdAj3jp38nho1",
+      "productsId": 32,
+      "payload": {
+        "product": {
+          "id": 32,
+          "name": "Gaming camera",
+          "price": 1000,
+          "desc": "Streaming camera",
+          "img": "/images/combo.png",
+          "category": "header",
+          "stock": 15
+        }
+      },
+      "id": 14
+    },
+    {
+      "userId": "U4RSbmT1s4eTcySgdAj3jp38nho1",
+      "productsId": 12,
+      "payload": {
+        "product": {
+          "id": 12,
+          "name": "Gaming mic",
+          "price": 700,
+          "desc": "Clear voice mic",
+          "img": "/images/combo.png",
+          "category": "header",
+          "stock": 12
+        }
+      },
+      "id": 15
+    }
+  ]
+}
