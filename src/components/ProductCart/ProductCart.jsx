@@ -4,15 +4,14 @@ import { DisplayContext } from "../../context/DisplayContext";
 import { AuthContext } from "../../context/AuthContext";
 import useProduct from "../../hooks/useProducts";
 import { CartContext } from "../../context/CartContext";
-import {useNavigate} from 'react-router-dom' 
+import { useNavigate } from "react-router-dom";
 
 export default function ProductCart() {
   const { wishListHandler } = useProduct();
-  const { productsData } = useContext(DisplayContext);
+  const { productsData = [] } = useContext(DisplayContext);
   const { currentUser, isLoadingCurrentUser } = useContext(AuthContext);
   const { addToCart } = useContext(CartContext);
-  const navigate = useNavigate()
-
+  const navigate = useNavigate();
 
   const getDiscount = (price) => {
     if (price >= 2000) return 30;
@@ -22,37 +21,41 @@ export default function ProductCart() {
     return 10;
   };
 
-  if (isLoadingCurrentUser) {
-    return (
-      <p className="text-white text-center mt-10">
-        Loading user...
-      </p>
-    );
-  }
+  const handleAddToCart = (event, product, finalPrice) => {
+    event.stopPropagation();
 
-  if (!currentUser) {
-    return (
-      <p className="text-white text-center mt-10">
-        Please login Or Register to view products
-      </p>
-    );
-  }
+    if (!currentUser) {
+      navigate("/logiin");
+      return;
+    }
 
-  const headerProducts = productsData.filter(
-    (item) => item.category?.toLowerCase().trim() === "header"
-  );
+    addToCart(product, finalPrice);
+  };
+
+  const handleAddToWishlist = (event, product) => {
+    event.stopPropagation();
+
+    if (!currentUser) {
+      navigate("/logiin");
+      return;
+    }
+
+    wishListHandler(product);
+  };
 
   return (
     <div className="flex gap-6 flex-wrap">
-      {headerProducts.length > 0 ? (
-        headerProducts.map((value) => {
-          const discount = getDiscount(value.price);
+      {productsData.length > 0 ? (
+        productsData.map((value) => {
+          const price = Number(value.price) || 0;
+          const discount = getDiscount(price);
           const finalPrice = Math.floor(
-            value.price - (value.price * discount) / 100
+            price - (price * discount) / 100
           );
 
           return (
-            <div onClick={() => navigate(`/ProductCart/${value.id}`)}
+            <div
+              onClick={() => navigate(`/ProductCart/${value.id}`)}
               key={value.id}
               className="cart relative w-90 bg-[var(--cart-back)] p-3 rounded-xl overflow-hidden cursor-pointer group"
             >
@@ -60,10 +63,10 @@ export default function ProductCart() {
                 -{discount}%
               </div>
 
-              {/* Image */}
               <div className="w-full h-52 sm:h-60 overflow-hidden rounded-lg">
                 <img
                   src={value.img}
+                  alt={value.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                 />
               </div>
@@ -81,22 +84,24 @@ export default function ProductCart() {
                   {value.desc}
                 </p>
 
-
-
                 <p className="mt-2 flex items-center gap-3">
                   <span className="text-green-400 text-xl font-bold">
                     ${finalPrice}
                   </span>
 
                   <del className="text-gray-500 text-sm">
-                    ${value.price}
+                    ${price}
                   </del>
                 </p>
-                 <p className="text-gray-300 text-sm mt-2">
-                  Stock : {value.stock}
+
+                <p className="text-gray-300 text-sm mt-2">
+                  Stock: {value.stock}
                 </p>
+
                 <button
-                  onClick={() => addToCart(value , finalPrice)}
+                  onClick={(event) =>
+                    handleAddToCart(event, value, finalPrice)
+                  }
                   className="mt-4 w-full py-2 rounded-lg text-white transition relative overflow-hidden group"
                 >
                   <span className="relative z-10">Add to Cart</span>
@@ -104,7 +109,9 @@ export default function ProductCart() {
                 </button>
 
                 <button
-                  onClick={() => wishListHandler(value)}
+                  onClick={(event) =>
+                    handleAddToWishlist(event, value)
+                  }
                   className="mt-4 w-full py-2 rounded-lg text-white transition relative overflow-hidden group"
                 >
                   <span className="relative z-10">
@@ -117,7 +124,11 @@ export default function ProductCart() {
           );
         })
       ) : (
-        <p className="text-gray-400">No HEADER products found</p>
+        <p className="text-gray-400">
+          {isLoadingCurrentUser
+            ? "Loading products..."
+            : "No products found"}
+        </p>
       )}
     </div>
   );
